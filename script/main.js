@@ -27,7 +27,7 @@ camera.position.z = 5
 const frame = () => {
     window.requestAnimationFrame(frame)
 
-    coin.rotation.z += .15
+    coin.rotation.z += .05
 
     renderer.render(scene, camera)
 }
